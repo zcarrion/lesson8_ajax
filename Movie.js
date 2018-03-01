@@ -104,6 +104,8 @@ $(document).ready(function(){
                 $("#original_language").html(json.results[0].original_language);
 
 
+                 $("#vote_count").html(json.results[0].vote_count);
+
                 //The following code retrieves the movie poster path from the JSON object retrieved from the TMDB 
                 //Server and places the poster image on the HTML page, where the id="poster_path".  It took TWO
                 //step to complete this step.
